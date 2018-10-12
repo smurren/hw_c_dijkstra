@@ -1,0 +1,58 @@
+1 --> 5
+1 --> 2 --> 4 --> 5
+Total distance: 14
+
+Routing table of node 1
+Destination	Next Hop	Cost
+------------------------------------
+2		2		4
+3		2		7
+4		2		11
+5		2		14
+6		2		13
+
+Routing table of node 2
+Destination	Next Hop	Cost
+------------------------------------
+1		1		4
+3		3		3
+4		4		7
+5		4		10
+6		4		9
+
+Routing table of node 3
+Destination	Next Hop	Cost
+------------------------------------
+1		2		7
+2		2		3
+4		4		5
+5		5		8
+6		4		7
+
+Routing table of node 4
+Destination	Next Hop	Cost
+------------------------------------
+1		2		11
+2		2		7
+3		3		5
+5		5		3
+6		6		2
+
+Routing table of node 5
+Destination	Next Hop	Cost
+------------------------------------
+1		4		14
+2		4		10
+3		3		8
+4		4		3
+6		6		5
+
+Routing table of node 6
+Destination	Next Hop	Cost
+------------------------------------
+1		4		13
+2		4		9
+3		4		7
+4		4		2
+5		5		5
+
